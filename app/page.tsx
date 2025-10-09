@@ -28,7 +28,7 @@ export default function Home() {
     {
       title: "Dépannage Électrique",
       subtitle: "Intervention rapide 7j/7",
-      content: "Dépannage électrique d'urgence et réparations. Panne de courant, disjoncteur qui saute, problèmes d'éclairage. Intervention rapide dans un rayon de 42km en Midi-Pyrénées.",
+      content: "Dépannage électrique d'urgence et réparations. Panne de courant, disjoncteur qui saute, problèmes d'éclairage. Intervention rapide en Île-de-France, Oise et Haute-Savoie.",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
     },
     {
@@ -97,17 +97,17 @@ export default function Home() {
 
   const teamMembers = [
     {
-      name: "Patrice Ferret",
-      position: "Électricien Professionnel",
-      description: "Électricien professionnel passionné, je dirige Paciflo Elec avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, j'interviens dans un rayon de 42km en Midi-Pyrénées avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
+      name: "Omar El Mahjouby",
+      position: "Électricien Professionnel - Fondateur",
+      description: "Électricien professionnel passionné, je dirige Electrostar avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, notre équipe de 2 à 5 collaborateurs intervient en Île-de-France, Oise et Haute-Savoie avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
       photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     }
   ];
 
   const contactInfo = {
-    address: "Midi-Pyrénées\nRayon d'intervention: 42km",
-    phone: "06 67 99 07 42",
-    email: "pacifloelec31@gmail.com",
+    address: "Île-de-France, Oise, Haute-Savoie\nÉquipe de 2 à 5 collaborateurs",
+    phone: "01 XX XX XX XX",
+    email: "electrostar1525@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
     mapEmbedUrl: "https://maps.google.com/maps?q=Midi-Pyrénées,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
   };

@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "Paciflo Elec",
-    "legalName": "Paciflo Elec",
-    "address": "Midi-Pyrénées",
-    "phone": "06 67 99 07 42",
-    "email": "pacifloelec31@gmail.com",
+    "name": "Electrostar",
+    "legalName": "Electrostar",
+    "address": "Île-de-France, Oise, Haute-Savoie",
+    "phone": "01 XX XX XX XX",
+    "email": "electrostar1525@gmail.com",
     "siret": "À définir",
-    "ceo": "Patrice Ferret"
+    "ceo": "Omar El Mahjouby"
   },
   "hero": {
-    "title": "Paciflo Elec - Électricité Professionnelle en Midi-Pyrénées",
-    "subtitle": "Électricien professionnel spécialisé dans les installations électriques résidentielles et commerciales. Expert du secteur électrique en Midi-Pyrénées avec intervention rapide dans un rayon de 42km.",
+    "title": "Electrostar - Électricité Professionnelle en Île-de-France",
+    "subtitle": "Électricien professionnel spécialisé dans les installations électriques résidentielles et commerciales. Expert du secteur électrique en Île-de-France, Oise et Haute-Savoie avec une équipe de 2 à 5 collaborateurs qualifiés.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/bg.jpg"
@@ -21,7 +21,7 @@
         "smallTitle": "Notre expertise",
         "title": "Électricité professionnelle de qualité",
         "subtitle": "Installations électriques résidentielles et commerciales",
-        "content": "Électricien professionnel basé en Midi-Pyrénées, je réalise tous vos travaux d'électricité générale : installations neuves, rénovations, dépannages et mises aux normes. Intervention rapide et travail soigné pour tous vos besoins électriques résidentiels et commerciaux.",
+        "content": "Électricien professionnel basé en Île-de-France, nous réalisons tous vos travaux d'électricité générale : installations neuves, rénovations, dépannages et mises aux normes. Notre équipe de 2 à 5 collaborateurs qualifiés intervient rapidement pour tous vos besoins électriques résidentiels et commerciaux.",
         "gradientFrom": "#1f2937",
         "gradientTo": "#374151",
         "buttonText": "Voir nos services",
@@ -30,9 +30,9 @@
       },
       {
         "smallTitle": "Notre zone d'intervention",
-        "title": "Service de proximité en Midi-Pyrénées",
-        "subtitle": "Intervention dans un rayon de 42km",
-        "content": "Basé en Midi-Pyrénées, j'interviens dans un rayon de 42km pour tous vos projets électriques. Ma proximité me permet d'assurer un service personnalisé et réactif, depuis l'étude de votre projet jusqu'à la réalisation, avec des déplacements rapides pour évaluer chaque installation électrique.",
+        "title": "Service de proximité en Île-de-France",
+        "subtitle": "Intervention en Île-de-France, Oise et Haute-Savoie",
+        "content": "Basés en Île-de-France, nous intervenons également dans l'Oise et la Haute-Savoie pour tous vos projets électriques. Notre proximité nous permet d'assurer un service personnalisé et réactif, depuis l'étude de votre projet jusqu'à la réalisation, avec des déplacements rapides pour évaluer chaque installation électrique.",
         "gradientFrom": "#dc2626",
         "gradientTo": "#ef4444",
         "buttonText": "Vérifier votre zone",
@@ -43,27 +43,27 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos réalisations en électricité générale et installations électriques",
+    "subtitle": "Découvrez nos réalisations en électricité générale et installations électriques par Electrostar",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=800&fit=crop",
-        "alt": "Installation électrique - Paciflo Elec",
+        "alt": "Installation électrique - Electrostar",
         "title": "Installation électrique résidentielle"
       },
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Tableau électrique - Paciflo Elec",
+        "alt": "Tableau électrique - Electrostar",
         "title": "Tableau électrique moderne"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Installation électrique - Paciflo Elec",
+        "alt": "Installation électrique - Electrostar",
         "title": "Installation électrique complète"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Dépannage électrique - Paciflo Elec",
+        "alt": "Dépannage électrique - Electrostar",
         "title": "Dépannage électrique rapide"
       }
     ]
@@ -75,9 +75,9 @@
   "team": {
     "members": [
       {
-        "name": "Patrice Ferret",
-        "position": "Électricien Professionnel",
-        "description": "Électricien professionnel passionné, je dirige Paciflo Elec avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, j'interviens dans un rayon de 42km en Midi-Pyrénées avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
+        "name": "Omar El Mahjouby",
+        "position": "Électricien Professionnel - Fondateur",
+        "description": "Électricien professionnel passionné, je dirige Electrostar avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, notre équipe de 2 à 5 collaborateurs intervient en Île-de-France, Oise et Haute-Savoie avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
         "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
       }
     ]
