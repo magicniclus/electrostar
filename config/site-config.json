@@ -1,0 +1,114 @@
+{
+  "company": {
+    "name": "Darien Elec",
+    "legalName": "Darien Elec",
+    "address": "Tour",
+    "phone": "07 53 73 71 22",
+    "email": "contact@darien-elec.fr",
+    "siret": "À définir",
+    "ceo": "Adrien"
+  },
+  "hero": {
+    "title": "Darien Elec - Électricité & Domotique Professionnelle",
+    "subtitle": "Expert en électricité, domotique et automatisation de portails dans le secteur de Tour. Solutions électriques sur mesure depuis 2005.",
+    "buttonText": "Demander un devis",
+    "buttonHref": "#contact",
+    "backgroundImage": "/bg.jpg"
+  },
+  "about": {
+    "sections": [
+      {
+        "smallTitle": "Notre expertise",
+        "title": "Électricité et domotique d'excellence",
+        "subtitle": "Installations électriques, domotique et portails automatisés",
+        "content": "Spécialisés dans l'électricité générale et la domotique, nous réalisons vos installations électriques, systèmes domotiques et automatisation de portails. Auto-entrepreneur depuis 2005, nous apportons des solutions techniques modernes et fiables pour tous vos besoins électriques résidentiels et professionnels.",
+        "gradientFrom": "#1f2937",
+        "gradientTo": "#374151",
+        "buttonText": "Voir nos services",
+        "buttonHref": "#services",
+        "reversed": false
+      },
+      {
+        "smallTitle": "Notre zone d'intervention",
+        "title": "Service de proximité dans le secteur de Tour",
+        "subtitle": "Intervention rapide dans toute la région",
+        "content": "Basés à Tour, nous intervenons dans tout le secteur pour vos projets électriques et domotiques. Notre implantation locale nous permet d'assurer un suivi personnalisé de A à Z, depuis l'étude technique jusqu'à la mise en service, avec des déplacements rapides pour évaluer chaque projet électrique.",
+        "gradientFrom": "#dc2626",
+        "gradientTo": "#ef4444",
+        "buttonText": "Vérifier votre zone",
+        "buttonHref": "#contact",
+        "reversed": true
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Nos Réalisations",
+    "subtitle": "Découvrez nos réalisations en électricité, domotique et automatisation de portails",
+    "initialDisplayCount": 4,
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=800&fit=crop",
+        "alt": "Installation électrique - Darien Elec",
+        "title": "Installation électrique résidentielle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
+        "alt": "Système domotique - Darien Elec",
+        "title": "Système domotique intelligent"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
+        "alt": "Portail automatisé - Darien Elec",
+        "title": "Portail automatisé"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
+        "alt": "Tableau électrique - Darien Elec",
+        "title": "Tableau électrique moderne"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Devis gratuit et personnalisé pour vos projets électriques et domotiques"
+  },
+  "team": {
+    "members": [
+      {
+        "name": "Adrien",
+        "position": "Fondateur & Électricien Expert",
+        "description": "Électricien professionnel depuis 2005, je dirige Darien Elec en tant qu'auto-entrepreneur. Expert en électricité générale, domotique et automatisation de portails, j'interviens dans un rayon de 100km avec un service personnalisé. Chaque projet bénéficie d'une approche technique rigoureuse pour garantir sécurité et performance.",
+        "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+      }
+    ]
+  },
+  "partners": {
+    "logos": [
+      {
+        "src": "/logo/SMA_BTP.png",
+        "alt": "SMA BTP - Partenaire construction",
+        "name": "SMA BTP"
+      },
+      {
+        "src": "/logo/decennale.png",
+        "alt": "Assurance décennale - Garantie",
+        "name": "Assurance Décennale"
+      },
+      {
+        "src": "/logo/qonto.png",
+        "alt": "Qonto - Partenaire bancaire",
+        "name": "Qonto"
+      },
+      {
+        "src": "/logo/tmc-partenaire.png",
+        "alt": "TMC Partenaire - Réseau professionnel",
+        "name": "TMC Partenaire"
+      }
+    ]
+  },
+  "colors": {
+    "primary": "#1f2937",
+    "secondary": "#dc2626",
+    "accent": "#374151"
+  }
+}

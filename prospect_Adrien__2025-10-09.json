@@ -1,0 +1,41 @@
+{
+  "id": "kNMWzduTLt22zkDSNn25",
+  "informationsPersonnelles": {
+    "nom": "",
+    "prenom": "Adrien",
+    "email": "",
+    "telephone": "0753737122",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1759913168,
+      "nanoseconds": 269000000
+    },
+    "rgpd": false,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "Darien elec",
+    "metier": "Electricien, domotique, portail",
+    "secteurActivite": "Tour",
+    "raisonSociale": "Auto-entrepreneur",
+    "anneeCreation": "2005",
+    "nombreCollaborateurs": "1",
+    "prestation": "",
+    "rayonIntervention": "100",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-10-09T08:56:28.715Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}
