@@ -5,8 +5,8 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Darien Elec - Électricité & Domotique Professionnelle",
-  description: "Darien Elec, expert en électricité générale, domotique et automatisation de portails. Auto-entrepreneur depuis 2005, intervention dans un rayon de 100km autour de Tour.",
+  title: "Paciflo Elec - Électricien Professionnel en Midi-Pyrénées",
+  description: "Paciflo Elec, électricien professionnel spécialisé en électricité générale. Intervention rapide dans un rayon de 42km en Midi-Pyrénées. Devis gratuit.",
 };
 
 export default function RootLayout({
@@ -20,10 +20,15 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <link rel="icon" href="/icon.png" sizes="any" />
         <link rel="shortcut icon" href="/favicon.png" />
+        <meta name="keywords" content="électricien, Midi-Pyrénées, électricité générale, installation électrique, dépannage, mise aux normes, Paciflo Elec" />
+        <meta name="author" content="Patrice Ferret - Paciflo Elec" />
+        <meta property="og:title" content="Paciflo Elec - Électricien Professionnel en Midi-Pyrénées" />
+        <meta property="og:description" content="Électricien professionnel spécialisé en électricité générale. Intervention rapide dans un rayon de 42km en Midi-Pyrénées." />
+        <meta property="og:type" content="website" />
         
-        {/* Google tag (gtag.js) - New */}
+        {/* Google tag (gtag.js) - Paciflo Elec */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11128083735" strategy="afterInteractive" />
-        <Script id="google-analytics-new" strategy="afterInteractive">
+        <Script id="google-analytics-paciflo" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

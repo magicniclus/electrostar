@@ -1,0 +1,37 @@
+{
+  "id": "4dm3EdAzdO5aCDKfsPlo",
+  "informationsPersonnelles": {
+    "nom": "Ferret",
+    "prenom": "Patrice ",
+    "email": "pacifloelec31@gmail.com",
+    "telephone": "0667990742 ",
+    "etape": "R2",
+    "date": "2025-10-09T11:46:04.712Z",
+    "rgpd": false,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "Paciflo Elec",
+    "metier": "Electricien",
+    "secteurActivite": "Midi-Pyrénées",
+    "raisonSociale": "",
+    "anneeCreation": "",
+    "nombreCollaborateurs": "1",
+    "prestation": "",
+    "rayonIntervention": "42",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-10-09T11:46:08.580Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

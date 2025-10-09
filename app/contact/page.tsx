@@ -45,11 +45,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Tour\nRayon d'intervention: 100km",
-    phone: "07 53 73 71 22",
-    email: "contact@darien-elec.fr",
+    address: "Midi-Pyrénées\nRayon d'intervention: 42km",
+    phone: "06 67 99 07 42",
+    email: "pacifloelec31@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Tour,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Midi-Pyrénées,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -70,7 +70,7 @@ export default function ContactPage() {
               Nous Contacter
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Une question ? Un projet ? Nous sommes là pour vous accompagner dans tous vos besoins électriques, domotiques et d'automatisation de portails.
+              Une question ? Un projet électrique ? Nous sommes là pour vous accompagner dans tous vos besoins en électricité générale.
             </p>
           </motion.div>
         </div>
@@ -126,7 +126,7 @@ export default function ContactPage() {
                           value={formData.phone}
                           onChange={handleInputChange}
                           className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-700 focus:border-transparent transition-all duration-200"
-                          placeholder="07 53 73 71 22"
+                          placeholder="06 67 99 07 42"
                         />
                       </div>
                     </div>
@@ -306,7 +306,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-nous directement pour obtenir une estimation gratuite de vos projets électriques.
+              Appelez-nous directement pour obtenir une estimation gratuite de vos projets électriques en Midi-Pyrénées.
             </p>
             <Button
               size="lg"

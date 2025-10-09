@@ -21,54 +21,54 @@ export default function Home() {
   const servicesData = [
     {
       title: "Électricité Générale",
-      subtitle: "Installations électriques complètes",
-      content: "Installation et rénovation électrique pour particuliers et professionnels. Mise aux normes, tableaux électriques, éclairage et prises. Intervention rapide et travail soigné depuis 2005.",
+      subtitle: "Installations et rénovations électriques",
+      content: "Installation complète et rénovation électrique pour particuliers et professionnels. Mise aux normes, tableaux électriques, éclairage et prises. Travail soigné et conforme aux normes.",
       image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop"
     },
     {
-      title: "Domotique & Maison Connectée",
-      subtitle: "Automatisation intelligente",
-      content: "Installation de systèmes domotiques pour automatiser votre habitat. Éclairage intelligent, volets roulants, chauffage connecté et sécurité. Solutions modernes et évolutives.",
+      title: "Dépannage Électrique",
+      subtitle: "Intervention rapide 7j/7",
+      content: "Dépannage électrique d'urgence et réparations. Panne de courant, disjoncteur qui saute, problèmes d'éclairage. Intervention rapide dans un rayon de 42km en Midi-Pyrénées.",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
     },
     {
-      title: "Portails Automatisés",
-      subtitle: "Motorisation et automatisation",
-      content: "Installation et maintenance de portails automatiques. Motorisation de portails battants et coulissants, interphones, digicodes et télécommandes. Service complet clé en main.",
-      image: "/portail.png"
+      title: "Mise aux Normes",
+      subtitle: "Sécurité et conformité",
+      content: "Mise aux normes de vos installations électriques anciennes. Diagnostic électrique, remplacement de tableaux, mise à la terre. Respect des normes NF C 15-100 pour votre sécurité.",
+      image: "/tableau.png"
     }
   ];
 
   const galleryImages = [
     {
       src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=800&fit=crop",
-      alt: "Installation racks industriels",
-      title: "Racks de stockage - Marseille"
+      alt: "Installation électrique résidentielle",
+      title: "Installation électrique - Toulouse"
     },
     {
       src: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=800&fit=crop",
-      alt: "Structure métallique sur mesure",
-      title: "Fabrication métallique - Nice"
+      alt: "Tableau électrique moderne",
+      title: "Tableau électrique - Montpellier"
     },
     {
       src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=800&fit=crop",
-      alt: "Travaux de chaudronnerie",
-      title: "Chaudronnerie - Toulon"
+      alt: "Dépannage électrique",
+      title: "Dépannage - Perpignan"
     },
     {
       src: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=800&h=800&fit=crop",
-      alt: "Ferronnerie industrielle",
-      title: "Ferronnerie - Cannes"
+      alt: "Mise aux normes électriques",
+      title: "Mise aux normes - Carcassonne"
     },
     {
       src: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&h=800&fit=crop",
-      alt: "Maintenance équipements",
-      title: "Maintenance - Aix-en-Provence"
+      alt: "Installation éclairage",
+      title: "Éclairage - Albi"
     },
     {
       src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-      alt: "Assemblage industriel",
-      title: "Assemblage - Avignon"
+      alt: "Rénovation électrique",
+      title: "Rénovation - Auch"
     }
   ];
 
@@ -97,19 +97,19 @@ export default function Home() {
 
   const teamMembers = [
     {
-      name: "Adrien",
-      position: "Fondateur & Électricien Expert",
-      description: "Électricien professionnel depuis 2005, je dirige Darien Elec en tant qu'auto-entrepreneur. Expert en électricité générale, domotique et automatisation de portails, j'interviens dans un rayon de 100km avec un service personnalisé. Chaque projet bénéficie d'une approche technique rigoureuse pour garantir sécurité et performance.",
+      name: "Patrice Ferret",
+      position: "Électricien Professionnel",
+      description: "Électricien professionnel passionné, je dirige Paciflo Elec avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, j'interviens dans un rayon de 42km en Midi-Pyrénées avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
       photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     }
   ];
 
   const contactInfo = {
-    address: "Tour\nRayon d'intervention: 100km",
-    phone: "07 53 73 71 22",
-    email: "contact@darien-elec.fr",
+    address: "Midi-Pyrénées\nRayon d'intervention: 42km",
+    phone: "06 67 99 07 42",
+    email: "pacifloelec31@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Tour,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Midi-Pyrénées,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -148,7 +148,7 @@ export default function Home() {
         buttonHref={config.about.sections[1].buttonHref}
         reversed={config.about.sections[1].reversed}
       />
-      <TeamSection title="Notre Équipe" subtitle="Expert en électricité et domotique au service de vos projets" config={config.team} />
+      <TeamSection title="Notre Équipe" subtitle="Électricien professionnel au service de vos projets" config={config.team} />
       <ContactSection contactInfo={contactInfo} />
 
       {/* Exit Intent Popup */}

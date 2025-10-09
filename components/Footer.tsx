@@ -36,7 +36,7 @@ export default function Footer() {
                 >
                   <Image
                     src="/logo.png"
-                    alt="Darien Elec - Électricité & Domotique Professionnelle"
+                    alt="Paciflo Elec - Électricité Professionnelle"
                     width={120}
                     height={48}
                     className="h-12 w-auto object-contain brightness-0 invert"
@@ -44,13 +44,13 @@ export default function Footer() {
                 </motion.div>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Expert en électricité générale, domotique et automatisation de portails. Solutions électriques sur mesure depuis 2005 dans un rayon de 100km.
+                Électricien professionnel spécialisé en électricité générale. Intervention rapide dans un rayon de 42km en Midi-Pyrénées.
               </p>
               <a 
-                href="mailto:contact@darien-elec.fr" 
+                href="mailto:pacifloelec31@gmail.com" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                contact@darien-elec.fr
+                pacifloelec31@gmail.com
               </a>
             </motion.div>
 
@@ -89,11 +89,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0753737122"
+                  href="tel:0667990742"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 53 73 71 22</span>
+                  <span>06 67 99 07 42</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Disponible du lundi au samedi de 8h à 18h
@@ -114,7 +114,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} Darien Elec. Tous droits réservés.
+              © {currentYear} Paciflo Elec. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}
