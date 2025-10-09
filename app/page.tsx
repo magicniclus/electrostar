@@ -106,7 +106,7 @@ export default function Home() {
 
   const contactInfo = {
     address: "Île-de-France, Oise, Haute-Savoie\nÉquipe de 2 à 5 collaborateurs",
-    phone: "01 XX XX XX XX",
+    phone: "07 46 33 50 95",
     email: "electrostar1525@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
     mapEmbedUrl: "https://maps.google.com/maps?q=Midi-Pyrénées,France&t=&z=8&ie=UTF8&iwloc=&output=embed"

@@ -46,7 +46,7 @@ export default function ContactPage() {
 
   const contactInfo = {
     address: "Île-de-France, Oise, Haute-Savoie\nÉquipe de 2 à 5 collaborateurs",
-    phone: "01 XX XX XX XX",
+    phone: "07 46 33 50 95",
     email: "electrostar1525@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
     mapEmbedUrl: "https://maps.google.com/maps?q=Île-de-France,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
@@ -126,7 +126,7 @@ export default function ContactPage() {
                           value={formData.phone}
                           onChange={handleInputChange}
                           className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-700 focus:border-transparent transition-all duration-200"
-                          placeholder="01 XX XX XX XX"
+                          placeholder="07 46 33 50 95"
                         />
                       </div>
                     </div>

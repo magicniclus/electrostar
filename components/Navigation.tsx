@@ -18,7 +18,7 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
-  const phoneNumber = "07 53 73 71 22";
+  const phoneNumber = "07 46 33 50 95";
 
   useEffect(() => {
     setIsMounted(true);

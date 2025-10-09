@@ -89,11 +89,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:01XXXXXXXX"
+                  href="tel:0746335095"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>01 XX XX XX XX</span>
+                  <span>07 46 33 50 95</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Disponible du lundi au samedi de 8h à 18h
