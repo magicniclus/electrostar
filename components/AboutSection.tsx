@@ -10,6 +10,7 @@ interface AboutSectionProps {
   subtitle: string;
   content: string;
   image?: string;
+  image2?: string;
   video?: string;
   gradientFrom?: string;
   gradientTo?: string;
@@ -24,6 +25,7 @@ export default function AboutSection({
   subtitle,
   content,
   image,
+  image2,
   video,
   gradientFrom = "#667eea",
   gradientTo = "#764ba2",
@@ -62,6 +64,25 @@ export default function AboutSection({
               >
                 <source src={video} type="video/mp4" />
               </video>
+            ) : image && image2 ? (
+              <div className="grid grid-cols-2 gap-2 h-full">
+                <div className="relative">
+                  <Image
+                    src={image}
+                    alt={`${title} - Image 1`}
+                    fill
+                    className="object-cover rounded-l-xl"
+                  />
+                </div>
+                <div className="relative">
+                  <Image
+                    src={image2}
+                    alt={`${title} - Image 2`}
+                    fill
+                    className="object-cover rounded-r-xl"
+                  />
+                </div>
+              </div>
             ) : image ? (
               <Image
                 src={image}

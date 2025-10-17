@@ -57,19 +57,6 @@ export default function TeamSection({
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              {/* Photo */}
-              <motion.div
-                className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-300"
-                whileHover={{ scale: 1.05 }}
-              >
-                <Image
-                  src={member.photo}
-                  alt={member.name}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-blue-700/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </motion.div>
 
               {/* Name */}
               <motion.h3

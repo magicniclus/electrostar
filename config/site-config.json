@@ -1,27 +1,27 @@
 {
   "company": {
-    "name": "Electrostar",
-    "legalName": "Electrostar",
-    "address": "Île-de-France, Oise, Haute-Savoie",
+    "name": "BatiElec",
+    "legalName": "BatiElec",
+    "address": "26 rue Claude Debussy, 74100 VILLE LA GRAND",
     "phone": "07 46 33 50 95",
-    "email": "electrostar1525@gmail.com",
+    "email": "elmahjomar@gmail.com",
     "siret": "À définir",
-    "ceo": "Omar El Mahjouby"
+    "ceo": "Omar EL MAHJOUBY DERMANE"
   },
   "hero": {
-    "title": "Electrostar - Électricité Professionnelle en Île-de-France",
-    "subtitle": "Électricien professionnel spécialisé dans les installations électriques résidentielles et commerciales. Expert du secteur électrique en Île-de-France, Oise et Haute-Savoie avec une équipe de 2 à 5 collaborateurs qualifiés.",
+    "title": "BatiElec - Électricien expert depuis 20 ans",
+    "subtitle": "Installation électrique en Ain, Haute-Savoie, Genève, Lausanne et Vaud. Spécialisé dans les chantiers de rénovation et construction. Tableaux électriques, prises, éclairage, compteurs et électroménager.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
-    "backgroundImage": "/bg.jpg"
+    "backgroundImage": "/bg.png"
   },
   "about": {
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Électricité professionnelle de qualité",
-        "subtitle": "Installations électriques résidentielles et commerciales",
-        "content": "Électricien professionnel basé en Île-de-France, nous réalisons tous vos travaux d'électricité générale : installations neuves, rénovations, dépannages et mises aux normes. Notre équipe de 2 à 5 collaborateurs qualifiés intervient rapidement pour tous vos besoins électriques résidentiels et commerciaux.",
+        "title": "Installation électrique professionnelle",
+        "subtitle": "Neuf, rénovation et maintenance électrique",
+        "content": "BatiElec réalise vos installations électriques dans le neuf et la rénovation : logements, villas, bureaux. Nous installons compteurs, prises, éclairage, tableaux électriques et vérifions vos installations. Contrôle et remise aux normes des anciennes installations avec tests et mesures.",
         "gradientFrom": "#1f2937",
         "gradientTo": "#374151",
         "buttonText": "Voir nos services",
@@ -30,9 +30,9 @@
       },
       {
         "smallTitle": "Notre zone d'intervention",
-        "title": "Service de proximité en Île-de-France",
-        "subtitle": "Intervention en Île-de-France, Oise et Haute-Savoie",
-        "content": "Basés en Île-de-France, nous intervenons également dans l'Oise et la Haute-Savoie pour tous vos projets électriques. Notre proximité nous permet d'assurer un service personnalisé et réactif, depuis l'étude de votre projet jusqu'à la réalisation, avec des déplacements rapides pour évaluer chaque installation électrique.",
+        "title": "France et Suisse",
+        "subtitle": "Ain, Haute-Savoie, Genève, Vaud, Lausanne",
+        "content": "Nous intervenons en Auvergne-Rhône-Alpes (Ain, Haute-Savoie) et en Suisse (Genève, Vaud, Lausanne) pour tous vos projets électriques. Installation d'électroménager (four, plaques, frigo, lave-linge, lave-vaisselle, hotte), éclairage et maintenance électrique professionnelle.",
         "gradientFrom": "#dc2626",
         "gradientTo": "#ef4444",
         "buttonText": "Vérifier votre zone",
@@ -43,28 +43,28 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos réalisations en électricité générale et installations électriques par Electrostar",
-    "initialDisplayCount": 4,
+    "subtitle": "Découvrez nos réalisations en installation électrique par BatiElec",
+    "initialDisplayCount": 8,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=800&fit=crop",
-        "alt": "Installation électrique - Electrostar",
+        "alt": "Installation électrique - BatiElec",
         "title": "Installation électrique résidentielle"
       },
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Tableau électrique - Electrostar",
+        "alt": "Tableau électrique - BatiElec",
         "title": "Tableau électrique moderne"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Installation électrique - Electrostar",
-        "title": "Installation électrique complète"
+        "alt": "Installation électroménager - BatiElec",
+        "title": "Installation électroménager"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Dépannage électrique - Electrostar",
-        "title": "Dépannage électrique rapide"
+        "alt": "Éclairage extérieur - BatiElec",
+        "title": "Éclairage extérieur"
       }
     ]
   },
@@ -75,9 +75,9 @@
   "team": {
     "members": [
       {
-        "name": "Omar El Mahjouby",
-        "position": "Électricien Professionnel - Fondateur",
-        "description": "Électricien professionnel passionné, je dirige Electrostar avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, notre équipe de 2 à 5 collaborateurs intervient en Île-de-France, Oise et Haute-Savoie avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
+        "name": "Omar",
+        "position": "Électricien Professionnel - Fondateur BatiElec",
+        "description": "Électricien professionnel passionné, je dirige BatiElec depuis 2024 avec plus de 20 ans d'expérience dans le domaine électrique en France, Suisse et Espagne. Diplômé d'un Bac Électrotechnique (1997) et DUT Électrotechnique (1999), notre équipe de 2 à 5 collaborateurs assure installations électriques, tableaux, prises, éclairage et installation d'électroménager avec garantie décennale.",
         "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
       }
     ]
@@ -85,19 +85,14 @@
   "partners": {
     "logos": [
       {
-        "src": "/logo/SMA_BTP.png",
-        "alt": "SMA BTP - Partenaire construction",
-        "name": "SMA BTP"
+        "src": "/logo/cic.png",
+        "alt": "CIC - Partenaire bancaire",
+        "name": "CIC"
       },
       {
         "src": "/logo/decennale.png",
         "alt": "Assurance décennale - Garantie",
         "name": "Assurance Décennale"
-      },
-      {
-        "src": "/logo/qonto.png",
-        "alt": "Qonto - Partenaire bancaire",
-        "name": "Qonto"
       },
       {
         "src": "/logo/tmc-partenaire.png",

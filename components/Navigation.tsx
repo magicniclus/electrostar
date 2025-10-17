@@ -72,19 +72,36 @@ export default function Navigation() {
             transition={{ duration: 0.7, delay: 0.2 }}
             whileHover={isMounted ? { scale: 1.02 } : {}}
           >
-            <a href="/" className="flex items-center justify-center">
+            <a href="/" className="flex items-center space-x-3">
               <motion.div 
-                className="h-20 w-auto bg-slate-900 rounded-xl p-2 flex justify-center items-center"
+                className="h-20 w-20 relative rounded-full p-2 flex justify-center items-center overflow-hidden"
                 whileHover={isMounted ? { scale: 1.05 } : {}}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <Image
-                  src="/logo.png"
-                  alt="Darien Elec - Électricité & Domotique Professionnelle"
-                  width={120}
-                  height={48}
-                  className="h-16 w-auto object-contain"
-                />
+                {/* Dégradé fort en cercle */}
+                <div className="absolute inset-0 rounded-full"></div>
+                {/* Contenu du logo */}
+                <div className="relative z-10">
+                  <Image
+                    src="/logo.png"
+                    alt="Darien Elec - Électricité & Domotique Professionnelle"
+                    width={120}
+                    height={48}
+                    className="h-16 w-auto object-contain"
+                  />
+                </div>
+              </motion.div>
+              {/* Texte batielec à droite du logo */}
+              <motion.div
+                initial={isMounted ? { opacity: 0, x: -20 } : false}
+                animate={isMounted ? { opacity: 1, x: 0 } : false}
+                transition={{ duration: 0.7, delay: 0.3 }}
+                className="hidden sm:block"
+              >
+                <div className="flex flex-col">
+                  <span className="text-xl font-bold text-slate-700">BatiElec</span>
+                  <span className="text-xs text-slate-500 -mt-1">Électricien spécialisé</span>
+                </div>
               </motion.div>
             </a>
           </motion.div>
@@ -361,7 +378,7 @@ export default function Navigation() {
                 transition={{ type: "spring", stiffness: 400 }}
                 className="bg-white hover:bg-gray-50 shadow-xl hover:shadow-2xl rounded-2xl px-6 py-4 transition-all duration-300 flex items-center space-x-4 border border-gray-200"
               >
-                <div className="bg-slate-700 rounded-full p-3 shadow-lg">
+                <div className="bg-yellow-500 rounded-full p-3 shadow-lg">
                   <Phone className="h-6 w-6 text-white" />
                 </div>
                 <div className="flex flex-col items-start">

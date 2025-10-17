@@ -27,7 +27,7 @@ export default function Hero({
   title = "Trouvez le professionnel idéal pour vos travaux",
   description = "Mettez en relation avec des artisans qualifiés et obtenez des devis gratuits pour tous vos projets de construction et rénovation.",
   bulletPoints = [
-    "Équipe de 3 collaborateurs qualifiés",
+    "Devis gratuit",
     "Garantie décennale sur tous nos travaux",
     "Intervention dans un rayon de 100km"
   ],

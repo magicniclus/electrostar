@@ -20,73 +20,110 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Électricité Générale",
-      subtitle: "Installations et rénovations électriques",
-      content: "Installation complète et rénovation électrique pour particuliers et professionnels. Mise aux normes, tableaux électriques, éclairage et prises. Travail soigné et conforme aux normes.",
+      title: "Installation Électrique",
+      subtitle: "Neuf et rénovation",
+      content: "Installation électrique complète sur chantiers de rénovation et construction. Compteurs, prises, éclairage, tableaux électriques. Vérification et contrôle de l'installation pour votre sécurité.",
       image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop"
     },
     {
-      title: "Dépannage Électrique",
-      subtitle: "Intervention rapide 7j/7",
-      content: "Dépannage électrique d'urgence et réparations. Panne de courant, disjoncteur qui saute, problèmes d'éclairage. Intervention rapide en Île-de-France, Oise et Haute-Savoie.",
+      title: "Installation Électroménager",
+      subtitle: "Fourniture et installation",
+      content: "Installation complète d'électroménager : four, plaques de cuisson, réfrigérateur, lave-linge, lave-vaisselle, hotte aspirante. Service clé en main avec garantie.",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
     },
     {
-      title: "Mise aux Normes",
-      subtitle: "Sécurité et conformité",
-      content: "Mise aux normes de vos installations électriques anciennes. Diagnostic électrique, remplacement de tableaux, mise à la terre. Respect des normes NF C 15-100 pour votre sécurité.",
+      title: "Éclairage & Maintenance",
+      subtitle: "Extérieur et professionnel",
+      content: "Éclairage extérieur, maintenance de l'éclairage et installations électriques dans les gares, centres commerciaux. Contrôle et remise aux normes des anciennes installations.",
       image: "/tableau.png"
     }
   ];
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=800&fit=crop",
-      alt: "Installation électrique résidentielle",
-      title: "Installation électrique - Toulouse"
+      src: "/client/1.jpg",
+      alt: "Installation électrique - BatiElec"
     },
     {
-      src: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&h=800&fit=crop",
-      alt: "Tableau électrique moderne",
-      title: "Tableau électrique - Montpellier"
+      src: "/client/2.jpg",
+      alt: "Tableau électrique - BatiElec"
     },
     {
-      src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=800&fit=crop",
-      alt: "Dépannage électrique",
-      title: "Dépannage - Perpignan"
+      src: "/client/3.jpg",
+      alt: "Installation électroménager - BatiElec"
     },
     {
-      src: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=800&h=800&fit=crop",
-      alt: "Mise aux normes électriques",
-      title: "Mise aux normes - Carcassonne"
+      src: "/client/4.jpg",
+      alt: "Éclairage extérieur - BatiElec"
     },
     {
-      src: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&h=800&fit=crop",
-      alt: "Installation éclairage",
-      title: "Éclairage - Albi"
+      src: "/client/5.jpg",
+      alt: "Rénovation électrique - BatiElec"
     },
     {
-      src: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-      alt: "Rénovation électrique",
-      title: "Rénovation - Auch"
+      src: "/client/6.jpg",
+      alt: "Installation prises - BatiElec"
+    },
+    {
+      src: "/client/7.jpg",
+      alt: "Maintenance électrique - BatiElec"
+    },
+    {
+      src: "/client/8.jpg",
+      alt: "Installation compteur - BatiElec"
+    },
+    {
+      src: "/client/9.jpg",
+      alt: "Mise aux normes - BatiElec"
+    },
+    {
+      src: "/client/10.jpg",
+      alt: "Installation éclairage - BatiElec"
+    },
+    {
+      src: "/client/11.jpg",
+      alt: "Dépannage électrique - BatiElec"
+    },
+    {
+      src: "/client/12.jpg",
+      alt: "Installation four - BatiElec"
+    },
+    {
+      src: "/client/13.jpg",
+      alt: "Installation lave-linge - BatiElec"
+    },
+    {
+      src: "/client/14.jpg",
+      alt: "Installation lave-vaisselle - BatiElec"
+    },
+    {
+      src: "/client/15.jpg",
+      alt: "Installation hotte - BatiElec"
+    },
+    {
+      src: "/client/16.jpg",
+      alt: "Installation plaques - BatiElec"
+    },
+    {
+      src: "/client/17.jpg",
+      alt: "Installation réfrigérateur - BatiElec"
+    },
+    {
+      src: "/client/18.jpg",
+      alt: "Contrôle installation - BatiElec"
     }
   ];
 
   const partnerLogos = [
     {
-      src: "/logo/SMA_BTP.png",
-      alt: "SMA BTP - Partenaire construction",
-      name: "SMA BTP"
+      src: "/logo/cic.png",
+      alt: "CIC - Partenaire bancaire",
+      name: "CIC"
     },
     {
       src: "/logo/decennale.png",
       alt: "Assurance décennale - Garantie", 
       name: "Assurance Décennale"
-    },
-    {
-      src: "/logo/qonto.png",
-      alt: "Qonto - Partenaire bancaire",
-      name: "Qonto"
     },
     {
       src: "/logo/tmc-partenaire.png",
@@ -97,19 +134,19 @@ export default function Home() {
 
   const teamMembers = [
     {
-      name: "Omar El Mahjouby",
-      position: "Électricien Professionnel - Fondateur",
-      description: "Électricien professionnel passionné, je dirige Electrostar avec un engagement total pour la qualité et la sécurité. Spécialisé en électricité générale, notre équipe de 2 à 5 collaborateurs intervient en Île-de-France, Oise et Haute-Savoie avec un service personnalisé et réactif. Chaque installation respecte les normes en vigueur pour votre sécurité.",
+      name: "Omar",
+      position: "Électricien Professionnel - Fondateur BatiElec",
+      description: "Électricien professionnel passionné, je dirige BatiElec depuis 2024 avec plus de 20 ans d'expérience dans le domaine électrique en France, Suisse et Espagne. Diplômé d'un Bac Électrotechnique (1997) et DUT Électrotechnique (1999), notre équipe de 2 à 5 collaborateurs assure installations électriques, tableaux, prises, éclairage et installation d'électroménager avec garantie décennale.",
       photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     }
   ];
 
   const contactInfo = {
-    address: "Île-de-France, Oise, Haute-Savoie\nÉquipe de 2 à 5 collaborateurs",
+    address: "Ain, Haute-Savoie, Genève, Vaud, Lausanne",
     phone: "07 46 33 50 95",
-    email: "electrostar1525@gmail.com",
+    email: "elmahjomar@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Midi-Pyrénées,France&t=&z=8&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=26+rue+Claude+Debussy,74100+VILLE+LA+GRAND&t=&z=15&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -122,7 +159,7 @@ export default function Home() {
           title={config.about.sections[0].title}
           subtitle={config.about.sections[0].subtitle}
           content={config.about.sections[0].content}
-          image="/about.jpg"
+          image="/about.png"
           gradientFrom={config.about.sections[0].gradientFrom}
           gradientTo={config.about.sections[0].gradientTo}
           buttonText={config.about.sections[0].buttonText}
@@ -134,14 +171,19 @@ export default function Home() {
         <ServicesSection title="Nos Services" subtitle="Découvrez notre gamme complète de prestations électriques" cards={servicesData} />
       </div>
       <div id="realisations">
-        <ProjectGallery config={config.gallery} />
+        <ProjectGallery 
+          title="Nos Réalisations"
+          subtitle="Découvrez nos réalisations en installation électrique par BatiElec"
+          images={galleryImages}
+          initialDisplayCount={8}
+        />
       </div>
       <AboutSection
         smallTitle={config.about.sections[1].smallTitle}
         title={config.about.sections[1].title}
         subtitle={config.about.sections[1].subtitle}
         content={config.about.sections[1].content}
-        image="/about2.jpg"
+        image="/about2.png"
         gradientFrom={config.about.sections[1].gradientFrom}
         gradientTo={config.about.sections[1].gradientTo}
         buttonText={config.about.sections[1].buttonText}

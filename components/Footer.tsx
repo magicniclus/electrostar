@@ -36,21 +36,21 @@ export default function Footer() {
                 >
                   <Image
                     src="/logo.png"
-                    alt="Electrostar - Électricité Professionnelle"
+                    alt="BatiElec - Électricien expert depuis 20 ans"
                     width={120}
                     height={48}
-                    className="h-12 w-auto object-contain brightness-0 invert"
+                    className="h-12 w-auto object-contain"
                   />
                 </motion.div>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Électricien professionnel spécialisé en électricité générale. Équipe de 2 à 5 collaborateurs intervenant en Île-de-France, Oise et Haute-Savoie.
+                BatiElec - Électricien expert depuis 20 ans. Installation électrique en Ain, Haute-Savoie, Genève, Lausanne et Vaud. Tableaux électriques, prises, éclairage, électroménager.
               </p>
               <a 
-                href="mailto:electrostar1525@gmail.com" 
+                href="mailto:elmahjomar@gmail.com" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                electrostar1525@gmail.com
+                elmahjomar@gmail.com
               </a>
             </motion.div>
 
@@ -114,7 +114,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} Electrostar. Tous droits réservés.
+              © {currentYear} BatiElec. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

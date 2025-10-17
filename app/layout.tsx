@@ -5,8 +5,8 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Electrostar - Électricien Professionnel en Île-de-France",
-  description: "Electrostar, électricien professionnel spécialisé en électricité générale. Équipe de 2 à 5 collaborateurs intervenant en Île-de-France, Oise et Haute-Savoie. Devis gratuit.",
+  title: "BatiElec - Électricien expert depuis 20 ans | Ville-la-Grand (74100)",
+  description: "BatiElec, électricien expert depuis 20 ans. Tableaux électriques, prises, éclairage, électroménager. Intervention Ain, Haute-Savoie, Genève, Vaud, Lausanne. Devis gratuit.",
 };
 
 export default function RootLayout({
@@ -20,15 +20,15 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <link rel="icon" href="/icon.png" sizes="any" />
         <link rel="shortcut icon" href="/favicon.png" />
-        <meta name="keywords" content="électricien, Île-de-France, Oise, Haute-Savoie, électricité générale, installation électrique, dépannage, mise aux normes, Electrostar" />
-        <meta name="author" content="Omar El Mahjouby - Electrostar" />
-        <meta property="og:title" content="Electrostar - Électricien Professionnel en Île-de-France" />
-        <meta property="og:description" content="Électricien professionnel spécialisé en électricité générale. Équipe de 2 à 5 collaborateurs intervenant en Île-de-France, Oise et Haute-Savoie." />
+        <meta name="keywords" content="électricien, Ville-la-Grand, Haute-Savoie, Ain, Genève, Vaud, Lausanne, installation électrique, tableau électrique, prises, éclairage, électroménager, BatiElec" />
+        <meta name="author" content="Omar EL MAHJOUBY DERMANE - BatiElec" />
+        <meta property="og:title" content="BatiElec - Électricien expert depuis 20 ans | Ville-la-Grand" />
+        <meta property="og:description" content="Installation électrique professionnelle. Tableaux électriques, prises, éclairage, électroménager. Intervention Ain, Haute-Savoie, Genève, Vaud, Lausanne." />
         <meta property="og:type" content="website" />
         
-        {/* Google tag (gtag.js) - Electrostar */}
+        {/* Google tag (gtag.js) - BatiElec */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11128083735" strategy="afterInteractive" />
-        <Script id="google-analytics-electrostar" strategy="afterInteractive">
+        <Script id="google-analytics-batielec" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

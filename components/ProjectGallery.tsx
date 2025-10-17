@@ -61,7 +61,11 @@ export default function ProjectGallery({
   };
 
   const showMoreImages = () => {
-    setDisplayCount(images.length);
+    setDisplayCount(galleryImages.length);
+  };
+
+  const showLessImages = () => {
+    setDisplayCount(galleryInitialDisplayCount);
   };
 
   useEffect(() => {
@@ -126,24 +130,33 @@ export default function ProjectGallery({
             ))}
           </div>
 
-          {/* Show More Button */}
-          {hasMoreImages && (
-            <motion.div
-              className="text-center mt-12"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-            >
+          {/* Show More/Less Button */}
+          <motion.div
+            className="text-center mt-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+          >
+            {hasMoreImages ? (
               <Button
                 size="lg"
                 className="bg-slate-700 hover:bg-slate-600 text-white shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={showMoreImages}
               >
-                Voir plus de réalisations ({images.length - displayCount} restantes)
+                Voir plus de réalisations ({galleryImages.length - displayCount} restantes)
               </Button>
-            </motion.div>
-          )}
+            ) : displayCount > galleryInitialDisplayCount ? (
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white shadow-lg hover:shadow-xl transition-all duration-300"
+                onClick={showLessImages}
+              >
+                Voir moins de réalisations
+              </Button>
+            ) : null}
+          </motion.div>
         </div>
       </section>
 
@@ -173,7 +186,7 @@ export default function ProjectGallery({
 
             {/* Carousel Container */}
             <motion.div
-              className="relative w-full md:h-full flex items-center justify-center md:flex md:items-center md:justify-center"
+              className="relative w-full h-full flex items-center justify-center"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
@@ -182,7 +195,7 @@ export default function ProjectGallery({
             >
               <Carousel 
                 setApi={setApi}
-                className="w-full h-full max-w-[95vw] max-h-[95vh]"
+                className="w-full h-full flex items-center justify-center"
                 opts={{
                   align: "center",
                   loop: true,
@@ -191,18 +204,20 @@ export default function ProjectGallery({
                   startIndex: selectedImageIndex,
                 }}
               >
-                <CarouselContent className="-ml-1">
+                <CarouselContent className="-ml-1 h-full flex items-center">
                   {galleryImages.map((image, index) => (
                     <CarouselItem key={index} className="h-full flex items-center justify-center pl-0">
-                      <div className="relative w-full h-full flex items-center justify-center p-2 md:p-4">
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          width={1200}
-                          height={800}
-                          className="object-contain max-w-full max-h-full rounded-lg"
-                          priority={index === current - 1}
-                        />
+                      <div className="flex items-center justify-center p-4">
+                        <div className="relative inline-block rounded-lg overflow-hidden shadow-2xl">
+                          <Image
+                            src={image.src}
+                            alt={image.alt}
+                            width={1200}
+                            height={800}
+                            className="object-contain max-w-[90vw] max-h-[80vh] block"
+                            priority={index === current - 1}
+                          />
+                        </div>
                       </div>
                     </CarouselItem>
                   ))}
