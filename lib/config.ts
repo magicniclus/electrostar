@@ -7,7 +7,12 @@ export interface CompanyInfo {
   phone: string;
   email: string;
   siret: string;
+  siren?: string;
+  codeApe?: string;
   ceo: string;
+  formeJuridique?: string;
+  dateImmatriculation?: string;
+  dateDebutActivite?: string;
 }
 
 export interface HeroConfig {

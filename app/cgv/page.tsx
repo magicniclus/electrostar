@@ -52,10 +52,10 @@ export default function CGVPage() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre 
-                  {config.company.legalName}, société par actions simplifiée au capital de 50 000 €, immatriculée au RCS de Paris 
-                  sous le numéro B {config.company.siret}, dont le siège social est situé {config.company.address}, 
-                  ci-après dénommée « {config.company.name} » ou « la Société », et toute personne physique ou morale, 
-                  ci-après dénommée « le Client », souhaitant bénéficier des services proposés par TrouverMonChantier.
+                  {config.company.legalName}, {config.company.formeJuridique}, immatriculé sous le SIREN {config.company.siren}, 
+                  SIRET {config.company.siret}, dont le siège social est situé {config.company.address}, 
+                  ci-après dénommé « {config.company.name} » ou « l'Entreprise », et toute personne physique ou morale, 
+                  ci-après dénommée « le Client », souhaitant bénéficier des services d'installation électrique proposés par {config.company.name}.
                 </p>
                 <p>
                   L'acceptation des présentes CGV est matérialisée par la validation de toute commande ou demande de service. 
@@ -69,15 +69,17 @@ export default function CGVPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 1 - Objet</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  {config.company.name} est une plateforme de mise en relation entre particuliers et professionnels du bâtiment. 
-                  La Société propose les services suivants :
+                  {config.company.name} est une entreprise spécialisée dans les travaux d'installation électrique. 
+                  L'Entreprise propose les services suivants :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Mise en relation avec des artisans et entrepreneurs qualifiés</li>
-                  <li>Établissement de devis gratuits</li>
-                  <li>Suivi de projets de construction et rénovation</li>
-                  <li>Conseil et accompagnement personnalisé</li>
-                  <li>Garanties sur les travaux réalisés</li>
+                  <li>Installation électrique complète (neuf et rénovation)</li>
+                  <li>Mise en conformité des installations électriques</li>
+                  <li>Installation de tableaux électriques</li>
+                  <li>Pose de prises, interrupteurs et éclairage</li>
+                  <li>Installation d'électroménager</li>
+                  <li>Dépannage et maintenance électrique</li>
+                  <li>Contrôle et vérification des installations</li>
                 </ul>
               </div>
             </div>
@@ -113,9 +115,9 @@ export default function CGVPage() {
                   Les modalités de paiement sont les suivantes :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Acompte de 30% à la commande</li>
-                  <li>40% à la livraison des matériaux ou au démarrage des travaux</li>
-                  <li>Solde de 30% à la réception des travaux</li>
+                  <li>Acompte de 30% à la signature du devis</li>
+                  <li>40% au démarrage des travaux</li>
+                  <li>Solde de 30% à la fin des travaux et remise du certificat de conformité</li>
                 </ul>
                 <p>
                   Les paiements peuvent être effectués par chèque, virement bancaire ou carte bancaire. 
@@ -156,16 +158,17 @@ export default function CGVPage() {
               
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  {config.company.name} garantit la conformité des travaux réalisés selon les règles de l'art et 
-                  les normes en vigueur. Les garanties légales s'appliquent :
+                  {config.company.name} garantit la conformité des installations électriques réalisées selon les règles de l'art, 
+                  les normes NF C 15-100 et la réglementation en vigueur. Les garanties légales s'appliquent :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li><strong>Garantie de parfait achèvement :</strong> 1 an à compter de la réception des travaux</li>
-                  <li><strong>Garantie biennale :</strong> 2 ans pour les équipements dissociables</li>
-                  <li><strong>Garantie décennale :</strong> 10 ans pour les éléments d'équipement indissociables</li>
+                  <li><strong>Garantie biennale :</strong> 2 ans pour les équipements électriques</li>
+                  <li><strong>Garantie décennale :</strong> 10 ans pour les installations électriques incorporées au bâti</li>
                 </ul>
                 <p>
-                  Tous nos artisans partenaires sont assurés et disposent des garanties légales obligatoires.
+                  {config.company.name} dispose d'une assurance responsabilité civile professionnelle et d'une garantie décennale 
+                  couvrant les installations électriques réalisées.
                 </p>
               </div>
             </div>
@@ -175,16 +178,16 @@ export default function CGVPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 6 - Responsabilité</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  {config.company.name} s'engage à mettre en œuvre tous les moyens nécessaires pour assurer 
-                  la bonne exécution des travaux confiés aux artisans partenaires.
+                  {config.company.name} s'engage à réaliser les travaux électriques selon les règles de l'art 
+                  et dans le respect des normes en vigueur.
                 </p>
                 <p>
-                  La responsabilité de {config.company.name} ne peut être engagée qu'en cas de faute prouvée 
-                  dans la sélection ou le suivi des artisans partenaires.
+                  La responsabilité de {config.company.name} est limitée aux dommages directs résultant 
+                  de l'inexécution ou de la mauvaise exécution des prestations.
                 </p>
                 <p>
-                  En aucun cas, {config.company.name} ne pourra être tenue responsable des dommages indirects 
-                  tels que perte d'exploitation, perte de clientèle, trouble commercial quelconque.
+                  En aucun cas, {config.company.name} ne pourra être tenu responsable des dommages indirects 
+                  tels que perte d'exploitation, perte de données, trouble commercial quelconque.
                 </p>
               </div>
             </div>
@@ -252,7 +255,7 @@ export default function CGVPage() {
                 </p>
                 <p>
                   Les présentes CGV sont soumises au droit français. En cas de litige, 
-                  les tribunaux de Paris seront seuls compétents.
+                  les tribunaux d'Annecy seront seuls compétents.
                 </p>
               </div>
             </div>
@@ -283,7 +286,7 @@ export default function CGVPage() {
                 <Calendar className="h-5 w-5 text-gray-600" />
                 <span className="text-sm font-semibold text-gray-700">Dernière mise à jour</span>
               </div>
-              <p className="text-gray-600">25 août 2025</p>
+              <p className="text-gray-600">17 octobre 2025</p>
             </div>
           </motion.div>
         </div>

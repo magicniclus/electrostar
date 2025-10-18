@@ -190,7 +190,7 @@ export default function Home() {
         buttonHref={config.about.sections[1].buttonHref}
         reversed={config.about.sections[1].reversed}
       />
-      <TeamSection title="Notre Équipe" subtitle="Électricien professionnel au service de vos projets" config={config.team} />
+      <TeamSection title="Qui suis-je ?" subtitle="Électricien professionnel au service de vos projets" config={config.team} />
       <ContactSection contactInfo={contactInfo} />
 
       {/* Exit Intent Popup */}

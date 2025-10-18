@@ -1,12 +1,17 @@
 {
   "company": {
     "name": "BatiElec",
-    "legalName": "BatiElec",
-    "address": "26 rue Claude Debussy, 74100 VILLE LA GRAND",
+    "legalName": "EL MAHJOUBY DERMANE OMAR",
+    "address": "26 rue Claude Debussy, 74100 Ville la Grand, France",
     "phone": "07 46 33 50 95",
     "email": "elmahjomar@gmail.com",
-    "siret": "À définir",
-    "ceo": "Omar EL MAHJOUBY DERMANE"
+    "siret": "94345392500012",
+    "siren": "943453925",
+    "codeApe": "4321A",
+    "ceo": "Omar EL MAHJOUBY DERMANE",
+    "formeJuridique": "Entrepreneur individuel",
+    "dateImmatriculation": "23/07/2025",
+    "dateDebutActivite": "01/05/2025"
   },
   "hero": {
     "title": "BatiElec - Électricien expert depuis 20 ans",

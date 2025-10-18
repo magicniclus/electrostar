@@ -50,13 +50,15 @@ export default function MentionsLegalesPage() {
               </div>
               
               <div className="space-y-4 text-gray-600">
-                <p><strong>Raison sociale :</strong> {config.company.legalName}</p>
+                <p><strong>Dénomination :</strong> {config.company.legalName}</p>
+                <p><strong>Nom commercial :</strong> {config.company.name}</p>
+                <p><strong>Forme juridique :</strong> {config.company.formeJuridique}</p>
                 <p><strong>Siège social :</strong> {config.company.address}</p>
-                <p><strong>Capital social :</strong> 50 000 €</p>
-                <p><strong>RCS :</strong> Paris B {config.company.siret}</p>
+                <p><strong>SIREN :</strong> {config.company.siren}</p>
                 <p><strong>SIRET :</strong> {config.company.siret}</p>
-                <p><strong>Code APE :</strong> 6201Z</p>
-                <p><strong>TVA intracommunautaire :</strong> FR12 123456789</p>
+                <p><strong>Code APE :</strong> {config.company.codeApe} - Travaux d'installation électrique dans tous locaux</p>
+                <p><strong>Date d'immatriculation :</strong> {config.company.dateImmatriculation}</p>
+                <p><strong>Date de début d'activité :</strong> {config.company.dateDebutActivite}</p>
               </div>
             </div>
 
@@ -65,7 +67,7 @@ export default function MentionsLegalesPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Directeur de publication</h2>
               <div className="space-y-4 text-gray-600">
                 <p><strong>Nom :</strong> {config.company.ceo}</p>
-                <p><strong>Qualité :</strong> Président de {config.company.legalName}</p>
+                <p><strong>Qualité :</strong> Gérant de {config.company.name}</p>
               </div>
             </div>
 
@@ -91,10 +93,9 @@ export default function MentionsLegalesPage() {
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Hébergement</h2>
               <div className="space-y-4 text-gray-600">
-                <p><strong>Hébergeur :</strong> OVH SAS</p>
-                <p><strong>Adresse :</strong> 2 rue Kellermann, 59100 Roubaix, France</p>
-                <p><strong>Téléphone :</strong> 1007</p>
-                <p><strong>Site web :</strong> <a href="https://www.ovh.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">www.ovh.com</a></p>
+                <p><strong>Hébergeur :</strong> Netlify, Inc.</p>
+                <p><strong>Adresse :</strong> 2325 3rd Street, Suite 296, San Francisco, CA 94107, États-Unis</p>
+                <p><strong>Site web :</strong> <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">www.netlify.com</a></p>
               </div>
             </div>
 
@@ -158,7 +159,7 @@ export default function MentionsLegalesPage() {
                   la loi n° 2004-801 du 6 août 2004, l'article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.
                 </p>
                 <p>
-                  Sur le site <strong>{config.company.name.toLowerCase().replace(/\s/g, '')}.fr</strong>, {config.company.legalName} ne collecte des informations personnelles 
+                  Sur ce site web, {config.company.name} ne collecte des informations personnelles 
                   relatives à l'utilisateur que pour le besoin de certains services proposés par le site. 
                   L'utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu'il procède par lui-même à leur saisie.
                 </p>
@@ -178,7 +179,7 @@ export default function MentionsLegalesPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Cookies</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Le site <strong>{config.company.name.toLowerCase().replace(/\s/g, '')}.fr</strong> peut être amené à vous demander l'acceptation de cookies pour des besoins de statistiques et d'affichage. 
+                  Ce site web peut être amené à vous demander l'acceptation de cookies pour des besoins de statistiques et d'affichage. 
                   Un cookie est une information déposée sur votre disque dur par le serveur du site que vous visitez.
                 </p>
                 <p>
@@ -197,7 +198,7 @@ export default function MentionsLegalesPage() {
                 <Calendar className="h-5 w-5 text-gray-600" />
                 <span className="text-sm font-semibold text-gray-700">Dernière mise à jour</span>
               </div>
-              <p className="text-gray-600">25 août 2025</p>
+              <p className="text-gray-600">17 octobre 2025</p>
             </div>
           </motion.div>
         </div>
