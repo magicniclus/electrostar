@@ -25,6 +25,9 @@ export default function RootLayout({
         <meta property="og:title" content="BatiElec - Électricien expert depuis 20 ans | Ville-la-Grand" />
         <meta property="og:description" content="Installation électrique professionnelle. Tableaux électriques, prises, éclairage, électroménager. Intervention Ain, Haute-Savoie, Genève, Vaud, Lausanne." />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="/bg.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         
         {/* Google tag (gtag.js) - BatiElec */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11128083735" strategy="afterInteractive" />
