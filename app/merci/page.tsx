@@ -19,12 +19,13 @@ export default function MerciPage() {
     // Vérifier que gtag est disponible
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-582173895/5et7CKm4vrEbEMeJzZUC',
+        'send_to': 'AW-17669335264/c1W3CPPAwrEbEODRsulB',
         'value': 60.0,
         'currency': 'EUR'
       });
     }
   }, []);
+
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
