@@ -30,13 +30,13 @@ export default function RootLayout({
         <meta property="og:image:height" content="630" />
         
         {/* Google tag (gtag.js) - BatiElec */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11128083735" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-582173895" strategy="afterInteractive" />
         <Script id="google-analytics-batielec" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-11128083735');
+            gtag('config', 'AW-582173895');
           `}
         </Script>
 
