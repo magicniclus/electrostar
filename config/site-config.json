@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "BatiElec - Électricien expert depuis 20 ans",
-    "subtitle": "Installation électrique en Ain, Haute-Savoie, Genève, Lausanne et Vaud. Spécialisé dans les chantiers de rénovation et construction. Tableaux électriques, prises, éclairage, compteurs et électroménager.",
+    "subtitle": "Installation électrique dans 3 secteurs d'Île-de-France : Nord (Beauvais, Compiègne), Centre (Paris, Saint-Denis, Meaux) et Sud (Fontainebleau, Gâtinais). Spécialisé dans les chantiers de rénovation et construction. Tableaux électriques, prises, éclairage, compteurs et électroménager.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/bg.png"
@@ -34,13 +34,13 @@
         "reversed": false
       },
       {
-        "smallTitle": "Notre zone d'intervention",
-        "title": "France et Suisse",
-        "subtitle": "Ain, Haute-Savoie, Genève, Vaud, Lausanne",
-        "content": "Nous intervenons en Auvergne-Rhône-Alpes (Ain, Haute-Savoie) et en Suisse (Genève, Vaud, Lausanne) pour tous vos projets électriques. Installation d'électroménager (four, plaques, frigo, lave-linge, lave-vaisselle, hotte), éclairage et maintenance électrique professionnelle.",
+        "smallTitle": "Nos secteurs d'intervention",
+        "title": "3 Secteurs en Île-de-France",
+        "subtitle": "Nord, Centre et Sud de la région parisienne",
+        "content": "Nous intervenons dans 3 secteurs stratégiques d'Île-de-France : Secteur Nord (Beauvais, Compiègne, Amiens), Secteur Centre (Paris, Saint-Denis, Meaux) et Secteur Sud (Fontainebleau, Gâtinais français) pour tous vos projets électriques. Installation d'électroménager (four, plaques, frigo, lave-linge, lave-vaisselle, hotte), éclairage et maintenance électrique professionnelle.",
         "gradientFrom": "#dc2626",
         "gradientTo": "#ef4444",
-        "buttonText": "Vérifier votre zone",
+        "buttonText": "Vérifier votre secteur",
         "buttonHref": "#contact",
         "reversed": true
       }

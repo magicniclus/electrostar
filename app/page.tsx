@@ -142,11 +142,11 @@ export default function Home() {
   ];
 
   const contactInfo = {
-    address: "Ain, Haute-Savoie, Genève, Vaud, Lausanne",
+    address: "3 Secteurs Île-de-France : Nord, Centre, Sud",
     phone: "07 46 33 50 95",
     email: "elmahjomar@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=26+rue+Claude+Debussy,74100+VILLE+LA+GRAND&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Paris,Île-de-France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (

@@ -83,7 +83,7 @@ export default function MerciPage() {
             </h2>
             <p className="text-gray-600 leading-relaxed">
               Nous avons bien reçu votre demande et nous vous remercions de votre confiance. 
-              Notre équipe d'artisans spécialisés en électricité, peinture et plâtrerie va étudier votre projet et vous recontacter rapidement.
+              Notre équipe de 3 collaborateurs spécialisés en électricité, peinture et plâtrerie va étudier votre projet et vous recontacter rapidement.
             </p>
           </div>
 
@@ -135,7 +135,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Devis personnalisé</h3>
                 <p className="text-gray-600 text-sm">
-                  Recevez un devis détaillé avec garantie décennale pour vos travaux en Île-de-France.
+                  Recevez un devis détaillé avec garantie décennale pour vos travaux dans nos 3 secteurs d'Île-de-France.
                 </p>
               </div>
             </motion.div>
